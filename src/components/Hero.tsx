@@ -16,7 +16,7 @@ export const Hero = () => (
             GALLERY
         </h1>
         <p className="mt-4 max-w-xl text-base md:text-lg text-neutral-400 text-balance">
-            Kumpulan karya <span className="text-white">Nasrul Aditri Rahmandika</span> — fotografi,
+            Galeri karya <span className="text-white">Nasrul Aditri Rahmandika</span> — fotografi,
             editing, dan desain grafis dalam satu galeri.
         </p>
 

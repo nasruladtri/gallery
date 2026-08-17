@@ -13,9 +13,9 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 const SITE_URL = "https://gallery.nasruladitri.space";
-const SITE_TITLE = "Nasrul Aditri Rahmandika | Galeri Foto & Desain";
+const SITE_TITLE = "Nasrul Aditri Gallery | Galeri Foto & Desain";
 const SITE_DESCRIPTION =
-    "Galeri karya Nasrul Aditri Rahmandika - fotografi, editing, dan desain grafis dalam satu tempat. Jelajahi koleksi foto, hasil editan, dan desain terbaru.";
+    "Nasrul Aditri Gallery - galeri foto dan desain karya Nasrul Aditri Rahmandika. Jelajahi koleksi fotografi dan desain grafis di galeri.nasruladitri.space.";
 
 export const metadata: Metadata = {
     metadataBase: new URL(SITE_URL),
@@ -28,11 +28,12 @@ export const metadata: Metadata = {
     keywords: [
         "Nasrul Aditri Rahmandika",
         "Nasrul Aditri",
+        "Nasrul Aditri Gallery",
+        "Nasrul Aditri Galeri",
         "Galeri Foto",
+        "Galeri Foto Nasrul Aditri",
         "Fotografi Indonesia",
-        "Editing Foto",
         "Desain Grafis",
-        "Jasa Editing Foto",
         "Jasa Desain",
         "Nasrul Aditri Madiun",
         "Portfolio Desain",
