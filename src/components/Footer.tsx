@@ -43,6 +43,17 @@ export const Footer = () => (
             </a>
 
             <div className="flex items-center gap-3">
+                <a
+                    href="https://www.nasruladitri.space"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-full border border-white/15 bg-white/5 px-5 py-2.5 text-sm text-neutral-200 hover:text-white hover:border-white/40 transition-colors"
+                >
+                    Lihat Portfolio →
+                </a>
+            </div>
+
+            <div className="flex items-center gap-3">
                 {SOCIALS.map((social) => (
                     <a
                         key={social.label}
