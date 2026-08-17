@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { PixelLogo } from "./Logo";
 
 const NAV_LINKS = [
     { href: "#beranda", label: "Beranda" },
@@ -27,8 +28,11 @@ export const Navbar = () => {
             }`}
         >
             <nav className="mx-auto max-w-6xl flex items-center justify-between px-6 py-4">
-                <a href="#beranda" className="font-display text-lg font-bold tracking-tight">
-                    nasruladtri<span className="text-accent">.</span>
+                <a href="#beranda" className="flex items-center gap-3" aria-label="Nasrul Aditri Rahmandika">
+                    <PixelLogo size={40} />
+                    <span className="font-display text-lg font-bold tracking-tight">
+                        NASRUL <span className="text-accent">ADITRI</span>
+                    </span>
                 </a>
                 <ul className="hidden sm:flex items-center gap-8">
                     {NAV_LINKS.map((link) => (
