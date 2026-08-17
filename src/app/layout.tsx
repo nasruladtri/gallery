@@ -12,7 +12,7 @@ const spaceGrotesk = Space_Grotesk({
     subsets: ["latin"],
 });
 
-const SITE_URL = "https://gallery-virid-phi.vercel.app";
+const SITE_URL = "https://gallery.nasruladitri.space";
 const SITE_TITLE = "Nasrul Aditri Rahmandika | Galeri Foto & Desain";
 const SITE_DESCRIPTION =
     "Galeri karya Nasrul Aditri Rahmandika - fotografi, editing, dan desain grafis dalam satu tempat. Jelajahi koleksi foto, hasil editan, dan desain terbaru.";
