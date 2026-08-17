@@ -49,7 +49,7 @@ export const Footer = () => (
                     rel="noopener noreferrer"
                     className="rounded-full border border-white/15 bg-white/5 px-5 py-2.5 text-sm text-neutral-200 hover:text-white hover:border-white/40 transition-colors"
                 >
-                    Lihat Portfolio →
+                    Lihat Website Utama →
                 </a>
             </div>
 

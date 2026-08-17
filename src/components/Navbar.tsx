@@ -54,7 +54,7 @@ export const Navbar = () => {
                             rel="noopener noreferrer"
                             className="rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm text-neutral-200 hover:text-white hover:border-white/40 transition-colors"
                         >
-                            Portfolio
+                            Website Utama
                         </a>
                     </li>
                 </ul>
@@ -65,7 +65,7 @@ export const Navbar = () => {
                         rel="noopener noreferrer"
                         className="rounded-full border border-white/15 bg-white/5 px-3 py-1.5 text-xs text-neutral-200 hover:text-white hover:border-white/40 transition-colors"
                     >
-                        Portfolio
+                        Website Utama
                     </a>
                     <a href="#galeri" className="text-sm text-neutral-300 hover:text-white transition-colors">
                         Galeri
