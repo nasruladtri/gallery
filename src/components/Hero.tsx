@@ -30,18 +30,5 @@ export const Hero = () => (
                 <path d="m19 12-7 7-7-7" />
             </svg>
         </a>
-
-        <div className="mt-16 grid grid-cols-3 gap-6 sm:gap-12 text-center">
-            {[
-                { value: "12+", label: "Karya" },
-                { value: "3", label: "Kategori" },
-                { value: "∞", label: "Ide" },
-            ].map((stat) => (
-                <div key={stat.label}>
-                    <p className="font-display text-2xl sm:text-3xl font-bold text-accent">{stat.value}</p>
-                    <p className="mt-1 text-xs uppercase tracking-widest text-neutral-500">{stat.label}</p>
-                </div>
-            ))}
-        </div>
     </section>
 );
