@@ -1,5 +1,3 @@
-import { PixelLogo } from "./Logo";
-
 const SOCIALS = [
     {
         label: "GitHub",
@@ -35,11 +33,15 @@ const SOCIALS = [
 export const Footer = () => (
     <footer id="kontak" className="mt-auto border-t border-white/10 bg-neutral-900/40">
         <div className="mx-auto max-w-6xl px-6 py-12 flex flex-col items-center gap-6">
-            <a href="#beranda" className="flex items-center gap-3" aria-label="Nasrul Aditri Rahmandika">
-                <PixelLogo size={40} />
-                <span className="font-display text-lg font-bold tracking-tight">
-                    NASRUL <span className="text-accent">ADITRI</span>
-                </span>
+            <a
+                href="#beranda"
+                className="inline-block text-white transition-transform duration-200 hover:-translate-y-0.5"
+                aria-label="Kembali ke atas"
+            >
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="m5 12 7-7 7 7" />
+                    <path d="M12 19V5" />
+                </svg>
             </a>
 
             <div className="flex items-center gap-3">
