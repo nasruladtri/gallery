@@ -12,12 +12,8 @@ export const Hero = () => (
             }}
         />
 
-        <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-xs tracking-widest uppercase text-neutral-300">
-            Portfolio Gallery
-        </span>
-
         <h1 className="font-display mt-6 text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-balance">
-            Foto. Editan. Desain.
+            GALLERY
         </h1>
         <p className="mt-4 max-w-xl text-base md:text-lg text-neutral-400 text-balance">
             Kumpulan karya <span className="text-white">Nasrul Aditri Rahmandika</span> — fotografi,
